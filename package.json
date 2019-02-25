@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "preinstall": "ng build --aot -prod",
+    "postinstall": "ng build --aot --prod",
     "ng": "ng",
     "start": "node server.js",
     "startapp": "ng serve",
