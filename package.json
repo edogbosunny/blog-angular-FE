@@ -2,7 +2,7 @@
   "name": "blog-angular-fe",
   "version": "0.0.0",
   "scripts": {
-    "postinstall": "ng build --aot -prod",
+    "preinstall": "ng build --aot -prod",
     "ng": "ng",
     "start": "node server.js",
     "startapp": "ng serve",
